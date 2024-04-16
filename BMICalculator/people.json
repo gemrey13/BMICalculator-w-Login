@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "John Doe",
+    "Height": 1.75,
+    "Weight": 70,
+    "BMI": 22.86,
+    "Remarks": "Normal weight"
+  },
+  {
+    "Name": "Jane Smith",
+    "Height": 1.65,
+    "Weight": 55,
+    "BMI": 20.20,
+    "Remarks": "Normal weight"
+  },
+  {
+    "Name": "Michael Johnson",
+    "Height": 1.80,
+    "Weight": 90,
+    "BMI": 27.78,
+    "Remarks": "Overweight"
+  }
+]
