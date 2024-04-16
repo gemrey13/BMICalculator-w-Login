@@ -39,35 +39,38 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(146, 9);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.75F);
+            this.label1.Location = new System.Drawing.Point(104, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(180, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "BMI Application";
             // 
             // username_label
             // 
             this.username_label.AutoSize = true;
+            this.username_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.username_label.Location = new System.Drawing.Point(48, 115);
             this.username_label.Name = "username_label";
-            this.username_label.Size = new System.Drawing.Size(55, 13);
+            this.username_label.Size = new System.Drawing.Size(122, 25);
             this.username_label.TabIndex = 1;
-            this.username_label.Text = "Username";
+            this.username_label.Text = "Username :";
             // 
             // password_label
             // 
             this.password_label.AutoSize = true;
+            this.password_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.password_label.Location = new System.Drawing.Point(51, 190);
             this.password_label.Name = "password_label";
-            this.password_label.Size = new System.Drawing.Size(53, 13);
+            this.password_label.Size = new System.Drawing.Size(118, 25);
             this.password_label.TabIndex = 2;
-            this.password_label.Text = "Password";
+            this.password_label.Text = "Password :";
             // 
             // loginButton
             // 
-            this.loginButton.Location = new System.Drawing.Point(220, 300);
+            this.loginButton.Location = new System.Drawing.Point(53, 261);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(75, 23);
+            this.loginButton.Size = new System.Drawing.Size(296, 38);
             this.loginButton.TabIndex = 3;
             this.loginButton.Text = "Login";
             this.loginButton.UseVisualStyleBackColor = true;
@@ -75,23 +78,26 @@
             // 
             // usernameTextBox
             // 
-            this.usernameTextBox.Location = new System.Drawing.Point(220, 108);
+            this.usernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.usernameTextBox.Location = new System.Drawing.Point(195, 121);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.usernameTextBox.Size = new System.Drawing.Size(157, 24);
             this.usernameTextBox.TabIndex = 4;
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(220, 187);
+            this.passwordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.passwordTextBox.Location = new System.Drawing.Point(195, 192);
             this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordTextBox.PasswordChar = '*';
+            this.passwordTextBox.Size = new System.Drawing.Size(157, 24);
             this.passwordTextBox.TabIndex = 5;
             // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 414);
+            this.ClientSize = new System.Drawing.Size(401, 349);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.loginButton);

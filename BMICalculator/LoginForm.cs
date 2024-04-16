@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -35,6 +36,12 @@ namespace BMICalculator
             {
                 MessageBox.Show("Invalid username or password. Please try again.");
             }
+
+        }
+
+        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Process.GetCurrentProcess().Kill();
         }
 
     }
