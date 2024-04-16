@@ -18,6 +18,7 @@ namespace BMICalculator
         public LoginForm()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -43,6 +44,5 @@ namespace BMICalculator
         {
             Process.GetCurrentProcess().Kill();
         }
-
     }
 }

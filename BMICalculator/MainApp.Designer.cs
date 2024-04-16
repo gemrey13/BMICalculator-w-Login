@@ -43,6 +43,7 @@
             // 
             // dataGridView
             // 
+            this.dataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Location = new System.Drawing.Point(12, 214);
             this.dataGridView.Name = "dataGridView";
@@ -53,6 +54,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.nameLabel.Location = new System.Drawing.Point(22, 61);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(86, 25);
@@ -63,21 +65,23 @@
             // 
             this.heightLabel.AutoSize = true;
             this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.heightLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.heightLabel.Location = new System.Drawing.Point(22, 145);
             this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(86, 25);
+            this.heightLabel.Size = new System.Drawing.Size(128, 25);
             this.heightLabel.TabIndex = 2;
-            this.heightLabel.Text = "Height :";
+            this.heightLabel.Text = "Height(cm) :";
             // 
             // weightLabel
             // 
             this.weightLabel.AutoSize = true;
             this.weightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.weightLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.weightLabel.Location = new System.Drawing.Point(307, 61);
             this.weightLabel.Name = "weightLabel";
-            this.weightLabel.Size = new System.Drawing.Size(91, 25);
+            this.weightLabel.Size = new System.Drawing.Size(128, 25);
             this.weightLabel.TabIndex = 3;
-            this.weightLabel.Text = "Weight :";
+            this.weightLabel.Text = "Weight(kg) :";
             // 
             // nameTextBox
             // 
@@ -105,29 +109,34 @@
             // 
             // submitButton
             // 
+            this.submitButton.BackColor = System.Drawing.SystemColors.Highlight;
             this.submitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.submitButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.submitButton.Location = new System.Drawing.Point(312, 162);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(231, 35);
             this.submitButton.TabIndex = 7;
             this.submitButton.Text = "submit";
-            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // logoutButton
             // 
+            this.logoutButton.BackColor = System.Drawing.Color.IndianRed;
+            this.logoutButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.logoutButton.Location = new System.Drawing.Point(468, 21);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(75, 23);
             this.logoutButton.TabIndex = 8;
             this.logoutButton.Text = "Logout";
-            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.UseVisualStyleBackColor = false;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.75F);
+            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
             this.label1.Location = new System.Drawing.Point(22, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 29);

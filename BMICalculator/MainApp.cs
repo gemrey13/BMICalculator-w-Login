@@ -20,6 +20,7 @@ namespace BMICalculator
         {
             InitializeComponent();
             LoadData();
+            CenterToScreen();
         }
 
         private void LoadData()
